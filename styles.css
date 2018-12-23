@@ -1,0 +1,86 @@
+body{
+    background: #333;
+    color:black;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a {
+    color: rgb(199, 15, 24);
+}
+strong{
+    color:#333;
+}
+
+#main{
+    margin: 20px auto;
+    background: rgb(220, 238, 238);
+    padding: 15px;
+    border: 0px solid;
+    border-radius: 15px;
+}
+
+
+#title{
+    color: #660F36;
+    text-align: center;
+    font-size: 3.5em;
+    font-family: 'Charm';
+
+}
+#title-description{
+    color: #C21460;
+    text-align: center;
+    font-size: 1.2em;
+    font-style: italic;
+    padding: 0px 0px 20px 0px;
+}
+
+
+#img-div{
+    margin: -5px;
+    width:100%;
+    border: 5px solid #333;
+    border-radius: 5px;
+
+    background: #333;
+    color:whitesmoke;
+
+    text-align: center;
+}
+#image{
+    display:block;
+    margin: auto;
+    max-width: 40%;
+
+    height:auto;
+}
+#img-caption{
+    padding: 10px;
+}
+
+#tribute-info{
+    border-radius: 5px;
+    padding: 40px 0px 40px 0px;
+}
+#tribute-info li{
+    padding:15px;
+}
+#tribute-info h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 25px;
+}
+#tribute-quote{
+    font-style: italic;
+    border: 1px solid #333;
+    padding: 20px;
+
+    border-radius: 5px;
+}
+#tribute-link{
+    color:blue;
+}
+
+footer{
+    color: white;
+    text-align: center;
+}
