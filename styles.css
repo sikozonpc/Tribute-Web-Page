@@ -1,8 +1,7 @@
 body{
     background: #333;
     color:black;
-    letter-spacing: 2px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 a {
     color: rgb(199, 15, 24);
@@ -12,23 +11,18 @@ strong{
 }
 
 #main{
-    margin: 20px auto;
+    margin: -70px 0px 0px 0px;
     background: rgb(220, 238, 238);
     padding: 15px;
     border: 0px solid;
     border-radius: 15px;
+    padding: 0px 0px -50px 0px;
+    z-index: 2;
 }
 
 
-#title{
-    color: #660F36;
-    text-align: center;
-    font-size: 3.5em;
-    font-family: 'Charm';
-
-}
 #title-description{
-    color: #C21460;
+    color: #333;
     text-align: center;
     font-size: 1.2em;
     font-style: italic;
@@ -50,10 +44,11 @@ strong{
 #image{
     display:block;
     margin: auto;
-    max-width: 40%;
+    max-width: 100%;
 
     height:auto;
 }
+
 #img-caption{
     padding: 10px;
 }
@@ -66,18 +61,32 @@ strong{
     padding:15px;
 }
 #tribute-info h3{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-left: 25px;
+    font-family: "Karla";
+    padding-left: 30px;
 }
 #tribute-quote{
+    font-family: "Karla", sans-serif;
     font-style: italic;
     border: 1px solid #333;
     padding: 20px;
 
     border-radius: 5px;
 }
+#tribute-quote:hover{
+    border-radius: 17px;
+    border: 2px solid #333;
+}
 #tribute-link{
+    font-family: "Karla";
     color:blue;
+}
+
+#carl-image{
+    display:block;
+    margin: auto;
+    max-width: 100%;
+
+    height:auto;
 }
 
 footer{
